@@ -1,0 +1,30 @@
+/* general */
+*{font-size:1em;font-family:arial;outline:none}
+body{padding:45px 0 60px 0;margin:0;overflow-x:hidden;height:100%;width:100%;background:url('../img/loading.gif') no-repeat center 200px}
+a{text-decoration:none;display:block}
+.hide{display:none}
+.clear{clear:both}
+.button{width:100%;margin-top:40px;font-weight:bold;display:block;padding:10px 0;text-align:center;font-size:16px;color:white;background:#666;border-radius:10px}
+
+/* layout */
+#title{font-weight:bold;background:#000;color:white;padding:10px;position:fixed;top:0;left:0;right:0;text-align:center;font-size:1.3em;box-shadow:0px 1px 1px rgba(0, 0, 0, 0.2);}
+
+/* content */
+article ul{background:white;list-style-type:none;margin:0;padding:0}
+
+form{padding:10px}
+	input{border:1px #ccc solid;width:100%;padding:10px 0;margin-bottom:10px;font-size:16px}
+		input.submit{border:0;background:#666;color:white}
+
+/* others */
+article li{padding:0;border:0}
+input{width:auto}
+li.text{text-align:right}
+	.text input{width:75%}
+	
+.color{padding:10px;font-size:1px;}
+.red{background:red;}
+.blue{background:blue;}
+.purple{background:purple;}
+.green{background:green;}
+.gray{background:gray;}
