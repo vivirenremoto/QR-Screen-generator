@@ -15,7 +15,7 @@
 <body>
 <header id="title">QR Screen generator</header>
 <article>
-<form action="result.php" method="post">
+<form action="result.php" method="get">
 <ul>
 	<li class="text">
 		Name 

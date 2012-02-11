@@ -1,12 +1,12 @@
 <?php
 
 // get variables
-$twitter = str_replace( '@','', strtolower( $_POST['twitter'] ) );
-$name = urlencode( $_POST['name'] );
-$phone = urlencode( $_POST['phone'] );
-$email = urlencode( $_POST['email'] );
+$twitter = str_replace( '@','', strtolower( $_GET['twitter'] ) );
+$name = urlencode( $_GET['name'] );
+$phone = urlencode( $_GET['phone'] );
+$email = urlencode( $_GET['email'] );
 $url = urlencode( 'http://twitter.com/' . $twitter );
-$color = $_POST['color'];
+$color = $_GET['color'];
 
 // config
 $screen_width = 640;
@@ -41,7 +41,7 @@ $start_y = 450;
 imagecopy($im, $image2, $start_x, $start_y, 0, 0, imagesx($image2), imagesy($image2));
 
 // foce donwload?
-if( $_POST['download'] ){
+if( $_GET['download'] ){
     header("Cache-Control: public");
     header("Content-Description: File Transfer");
     header("Content-Disposition: attachment; filename=wall.png");
