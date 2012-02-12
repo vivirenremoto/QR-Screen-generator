@@ -35,7 +35,8 @@
 		
 		<br/><br/>
 		
-		<div class="copy">weekend project by <a href="http://twitter.com/miquelcamps" target="_blank">@miquelcamps</a>, translation by <a href="http://twitter.com/SamSmitten" target="_blank">@SamSmitten</a></div>
+		<div class="copy">design based on <a href="https://twitter.com/dtrinh" target="_blank">Danny Trinh</a> work in <a href="http://path.com" target="_blank">path</a><br/>
+		code on <a href="https://github.com/miquelcamps/QR-Screen-generator" target="_blank">github</a>, translation by <a href="http://twitter.com/SamSmitten" target="_blank">@SamSmitten</a></div>
 	</div>
 </div>
 <script>
