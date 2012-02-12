@@ -1,6 +1,6 @@
 /* general */
 *{font-size:1em;font-family:arial;outline:none}
-body{padding:45px 0 60px 0;margin:0;overflow-x:hidden;height:100%;width:100%;background:url('../img/loading.gif') no-repeat center 200px}
+body{padding:45px 0 60px 0;margin:0;overflow-x:hidden;height:100%;width:100%;background:#fff}
 a{text-decoration:none;display:block}
 .hide{display:none}
 .clear{clear:both}
@@ -22,9 +22,10 @@ input{width:auto}
 li.text{text-align:right}
 	.text input{width:75%}
 	
-.color{padding:10px;font-size:1px;}
+.color{padding:8px;font-size:1px;}
 .red{background:red;}
 .blue{background:blue;}
 .purple{background:purple;}
 .green{background:green;}
 .gray{background:gray;}
+.pink{background:#C40A68}

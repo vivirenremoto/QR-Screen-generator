@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>QR Lock Screen generator</title>
+	<title>QR Screen generator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css?v=3">
 </head>
@@ -40,7 +40,7 @@
 </div>
 <script>
 function start(){
-	document.getElementById('info').innerHTML = '<iframe src="m?download" width="300" height="500" style="border:1px black solid"></iframe>';
+	document.getElementById('info').innerHTML = '<iframe src="m?download" width="300" height="500" style="border:1px #fff solid"></iframe>';
 }
 </script>
 </body>

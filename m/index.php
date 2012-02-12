@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.css?v=2">
 </head>
 <body>
 <header id="title">QR Screen generator</header>
@@ -39,6 +39,7 @@
 		<input type="radio" name="color" value="blue"/> <span class="color blue">&nbsp;</span> 
 		<input type="radio" name="color" value="green"/> <span class="color green">&nbsp;</span> 
 		<input type="radio" name="color" value="gray"/> <span class="color gray">&nbsp;</span> 
+		<input type="radio" name="color" value="pink"/> <span class="color pink">&nbsp;</span> 
 		<br class="clear"/>
 	</li>
 </ul>

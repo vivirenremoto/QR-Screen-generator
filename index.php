@@ -7,7 +7,7 @@ if( substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2) != "es" || $_GET['lang'] == 'en
 <!DOCTYPE html>
 <html>
 <head>
-	<title>QR Lock Screen generator</title>
+	<title>QR Screen generator</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css?v=3">
 </head>
@@ -46,7 +46,7 @@ if( substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2) != "es" || $_GET['lang'] == 'en
 </div>
 <script>
 function start(){
-	document.getElementById('info').innerHTML = '<iframe src="m?download" width="300" height="500" style="border:1px black solid"></iframe>';
+	document.getElementById('info').innerHTML = '<iframe src="m?download" width="300" height="500" style="border:1px #fff solid"></iframe>';
 }
 </script>
 </body>
