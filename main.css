@@ -1,4 +1,4 @@
-body{padding:0;margin:0}
+body{padding:0;margin:0;background:#000 url('img/bg2.png') no-repeat 420px top;color:white}
 *{font-size:16px;font-family:Arial}
 h1{font-size:35px;letter-spacing:-2px;margin:0 0 10px 0}
 h2{font-size:20px;font-weight:normal;margin:0 0 30px 0;line-height: 25px}
@@ -6,8 +6,8 @@ h2{font-size:20px;font-weight:normal;margin:0 0 30px 0;line-height: 25px}
 .bg{width:100%;height:100%;position:absolute;left:0;bottom:0}
 ul{padding-left:20px;margin-bottom:40px}
 	li{margin-bottom:10px}
-a{color:#267DD3}
-a.button{font-size:20px;padding:10px 20px;border-radius:20px;color:white;background:#267DD3;text-decoration:none;margin-bottom: 20px;}
+a{color:orange}
+a.button{font-size:20px;padding:10px 20px;border-radius:20px;color:white;background:orange;text-decoration:none;margin-bottom: 20px;}
 a.button:hover{box-shadow:0 0 8px rgba(82,168,236,0.5);}
 .more, .more a{font-size:13px}
-.copy, .copy a{font-size:11px;color:#000;opacity:0.5}
+.copy, .copy a{font-size:11px;color:#fff;opacity:0.5}

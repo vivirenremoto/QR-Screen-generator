@@ -3,10 +3,9 @@
 <head>
 	<title>QR Lock Screen generator</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="main.css?v=2">
+    <link rel="stylesheet" href="main.css?v=3">
 </head>
 <body>
-<img src="img/bg.png" class="bg"/>
 <div class="content">
 	<div id="info">
 	<h1>Do you like networking?</h1>
