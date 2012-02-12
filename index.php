@@ -41,7 +41,7 @@ if( substr($_SERVER["HTTP_ACCEPT_LANGUAGE"],0,2) != "es" || $_GET['lang'] == 'en
 		<br/><br/>
 		
 		<div class="copy">diseño basado en el trabajo de <a href="https://twitter.com/dtrinh" target="_blank">Danny Trinh</a> de <a href="http://path.com" target="_blank">path</a><br/>
-		código en <a href="https://github.com/miquelcamps/QR-Screen-generator" target="_blank">github</a>, translation by <a href="http://twitter.com/SamSmitten" target="_blank">@SamSmitten</a></div>
+		imagen de iphone4s por <a href="http://openclipart.org/detail/165019/iphone-44s-white--by-jhnri4" target="_blank">jhnri4</a>, código en <a href="https://github.com/miquelcamps/QR-Screen-generator" target="_blank">github</a>, translation by <a href="http://twitter.com/SamSmitten" target="_blank">@SamSmitten</a></div>
 	</div>
 </div>
 <script>
